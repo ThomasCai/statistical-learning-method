@@ -69,7 +69,7 @@ class Model:
 ### perceptron dual form
 class dualModel:
 	def __init__(self):
-		self.w = np.ones(len(data[0]) - 1, dtype=np.float32)
+		self.w = np.zeros(len(data[0]) - 1, dtype=np.float32)
 		self.alpha = np.ones(len(data), dtype=np.float32)
 		self.b = 0
 		self.ita = 1
