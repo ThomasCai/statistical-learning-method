@@ -150,4 +150,3 @@ if __name__ == '__main__':
     dt = DTree()
     tree = dt.fit(data_df)
     print(dt.predict(['老年', '否', '否', '一般']))
-
